@@ -1,0 +1,18 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Seja bem-vindo ao seu chatbot com inteligência artificial"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Esse é o ChatGPT CNI. Diferentemente da versão gratuita que sua fabricante não assume a responsabilidade pela segurança dos dados compartilhados, a versão privada das Entidades e Órgãos Nacionais do Sistema Indústria (CNI, SESI-DN, SENAI-DN e IEL-NC) prioriza a proteção de dados, oferecendo um ambiente seguro para seus usuários.",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

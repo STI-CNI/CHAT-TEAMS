@@ -1,0 +1,52 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.15",
+    "version": "1.0.6",
+    "id": "ebb46388-a878-40e5-91bf-b235aff5a808",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "STI AI, CNI.",
+        "websiteUrl": "https://prismasti.cni.com.br/",
+        "privacyUrl": "https://prismasti.cni.com.br/",
+        "termsOfUseUrl": "https://prismasti.cni.com.br/"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "ChatGPT-CNI",
+        "full": "ChatGPT-CNI STI AI"
+    },
+    "description": {
+        "short": "ChatGPT-CNI nosso chatbot de IA para o Teams.",
+        "full": "ChatGPT-CNI nosso chatbot de IA para o Teams."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "636e479c-15cd-4d4b-bd6e-f4151913a5f1",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "pjlsln1l-3978.brs.devtunnels.ms"
+    ],
+    "webApplicationInfo": {
+        "id": "c9f46413-734d-4357-9c3c-b1625b066d68",
+        "resource": "api://botid-636e479c-15cd-4d4b-bd6e-f4151913a5f1"
+    }
+}

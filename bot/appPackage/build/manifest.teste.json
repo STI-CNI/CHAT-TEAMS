@@ -1,0 +1,52 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.15",
+    "version": "1.0.11",
+    "id": "b5ee2d2f-c15a-41d1-9bdc-bb4b6a09b26a",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "STI, CNI.",
+        "websiteUrl": "https://cnicombr.sharepoint.com/sites/PRISMASTI/SitePages/STI-Sempre-Futuro-2023.aspx",
+        "privacyUrl": "https://cnicombr.sharepoint.com/:b:/s/CHATGPT-CNI/ESbm2sV0bbpAoAaiNy9U30MBCuTwi6wBI116FSjz4cvLlA?e=KAvyDa",
+        "termsOfUseUrl": "https://cnicombr.sharepoint.com/:b:/s/CHATGPT-CNI/ETVog7NfXtBHlxPGJQTWzb0Bby9HpaMYrdux_NxbsYfrSg?e=7iIwWz/"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "ChatGPT-CNI",
+        "full": "ChatGPT-CNI STI AI"
+    },
+    "description": {
+        "short": "ChatGPT-CNI nosso chatbot de IA para o Teams.",
+        "full": "ChatGPT-CNI nosso chatbot de IA para o Teams."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "48c9da19-57e8-4ea2-9b8f-c79640b63dec",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "bot9de91d.azurewebsites.net"
+    ],
+    "webApplicationInfo": {
+        "id": "baffa118-e081-4e5b-853a-a25922c579e5",
+        "resource": "api://botid-48c9da19-57e8-4ea2-9b8f-c79640b63dec"
+    }
+}

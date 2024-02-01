@@ -1,0 +1,1 @@
+{"version":3,"file":"authConfig.js","sourceRoot":"","sources":["../authConfig.ts"],"names":[],"mappings":";;;;;AACA,sDAA8B;AAE9B,MAAM,aAAa,GAAmC;IACpD,aAAa,EAAE,gBAAM,CAAC,aAAa;IACnC,QAAQ,EAAE,gBAAM,CAAC,QAAQ;IACzB,QAAQ,EAAE,gBAAM,CAAC,QAAQ;IACzB,YAAY,EAAE,gBAAM,CAAC,YAAY;CAClC,CAAC;AAEF,kBAAe,aAAa,CAAC"}
